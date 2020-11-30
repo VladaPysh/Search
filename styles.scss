@@ -1,0 +1,39 @@
+.nav{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav-item1{
+  order: 2;
+}
+.nav-item2{
+  order: 1;
+}
+
+.main {
+  height: 630px;
+  max-width: 1500px;
+  display: flex;
+}
+
+form{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  input{
+    margin: 8px;
+  }
+}
+.submit{
+  text-align: center;
+}
+
+#rcorners{
+  border-radius: 25px;
+  border: 0.5px solid;
+  padding: 20px;
+  width: 400px;
+  height: 40px;
+}
