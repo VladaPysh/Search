@@ -8,7 +8,48 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-      <form>
-        
-      </form>
+      <ul class="nav bgcolor">
+        <li class="nav-item1">
+          <img src="googleminilogo.png">
+        </li>
+        <li class="nav-item2">
+          <a class="nav-link" href="image.html">Images</a>
+          <a class="nav-link" href="index.html">Search</a>
+        </li>
+      </ul>
+      <div class="advanced">
+        <div class="header">
+          <h4>Advanced Search</h4>
+        </div>
+        <form id="form" action="https://google.com/search">
+          <div class="line">
+            <div class="text"><b>Find pages with...</b></div>
+            <div class="empty"></div>
+            <div class="greytext"><b>To do this in the search box</b></div>
+          </div>
+          <div class="line">
+            <div class="text">all these words</div>
+            <input class="empty" type="text" name="as_q">
+            <div class="greytext">Type the important words: tri-colour rat terrier</div>
+          </div>
+          <div class="line">
+            <div class="text">this exact word or phrase:</div>
+            <input class="empty" type="text" name="as_epq">
+            <div class="greytext">Put exact words in quotes: "rat terrier"</div>
+          </div>
+          <div class="line">
+            <div class="text">any of these words:</div>
+            <input class="empty" type="text" name="as_oq">
+            <div class="greytext">Type OR between all the words you want: miniature OR standard    </div>
+          </div>
+          <div class="line">
+            <div class="text">none of these words:</div>
+            <input class="empty" type="text" name="as_eq">
+            <div class="greytext">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+          </div>
+          <div id="button">
+            <button id="btn" type="submit">Advanced Search</button>
+          </div>
+        </form>
+      </div>
     </body>

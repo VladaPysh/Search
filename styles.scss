@@ -2,11 +2,12 @@ body {
   display: block;
   height: 100vh;
   width: 100%;
+  font-family: arial,sans-serif;
 }
 
 .nav{
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 .nav-link {
@@ -18,17 +19,18 @@ body {
   color: #020202;
 }
 
-.nav-item1{
-  order: 2;
+.nav-item1 {
+  margin: 10px;
 }
-.nav-item2{
-  order: 1;
+.nav-item2 {
+  display: flex;
 }
 
 .main {
+  margin: 20px;
+  padding: 20px;
   height: 75vh;
   display: flex;
-  border: 1px;
 }
 
 form {
@@ -37,7 +39,7 @@ form {
   flex-direction: column;
 }
 
-input{
+#input{
   margin: 8px;
   outline: none;
   border-radius: 20px;
@@ -45,7 +47,7 @@ input{
   padding: 9px 30px;
 }
 
-input:hover {
+#input:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
@@ -63,4 +65,69 @@ button {
 
 button:hover {
   border: .2px solid #aca9a9;
+}
+
+.header {
+  margin: 25px 30px;
+}
+
+h4 {
+  margin: 15px;
+  color: #d93025;
+  font-size: 20px;
+}
+
+#form {
+  padding: 25px 50px;
+  border: 0.3px solid rgb(170, 168, 168);
+  display: block;
+}
+
+.line {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.text {
+  width: 15%;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.empty {
+  width: 45%;
+  display: inline-block;
+}
+
+.greytext {
+  width: 35%;
+  padding: 0 10px;
+  display: inline-block;
+  color: #555;
+  font-size: 11px;
+}
+
+.bgcolor {
+  background-color: rgb(233, 233, 233);
+}
+
+#button {
+  width: 61%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#btn {
+  width: 25%;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+#btn:hover {
+  background-color: #3d7fe9;
+  border: 1px solid #1755b8;
 }
