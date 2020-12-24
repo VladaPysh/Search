@@ -14,6 +14,15 @@ body {
           flex-direction: row-reverse;
 }
 
+.nav-link {
+  color: #504e4e;
+  margin: 10px;
+}
+
+.nav-link:hover {
+  color: #020202;
+}
+
 .nav-item1 {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
@@ -67,6 +76,7 @@ button {
   border: .2px solid transparent;
   padding: 8px 15px;
   border-radius: 5px;
+  color: #504e4e;
 }
 
 button:hover {
