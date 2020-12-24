@@ -45,18 +45,31 @@ form {
           flex-direction: column;
 }
 
-form input {
+input {
   margin: 8px;
   outline: none;
+  border-radius: 20px;
+  border: 0.5px solid #ccc;
+  padding: 9px 30px;
+}
+
+input:hover {
+  -webkit-box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+          box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 .submit {
   text-align: center;
 }
 
-#input {
-  border-radius: 15px;
-  border: 0.5px solid;
-  padding: 5px;
+button {
+  margin: 20px 10px;
+  border: .2px solid transparent;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: .2px solid #aca9a9;
 }
 /*# sourceMappingURL=styles.css.map */
