@@ -17,10 +17,10 @@
           <a class="nav-link" href="index.html">Search</a>
         </li>
       </ul>
+      <div class="header">
+        <h4>Advanced Search</h4>
+      </div>
       <div class="advanced">
-        <div class="header">
-          <h4>Advanced Search</h4>
-        </div>
         <form id="form" action="https://google.com/search">
           <div class="line">
             <div class="text"><b>Find pages with...</b></div>
@@ -28,23 +28,23 @@
             <div class="greytext"><b>To do this in the search box</b></div>
           </div>
           <div class="line">
-            <div class="text">all these words</div>
-            <input class="empty" type="text" name="as_q">
+            <label for="as_q" class="text">all these words</label>
+            <input class="input" type="text" name="as_q">
             <div class="greytext">Type the important words: tri-colour rat terrier</div>
           </div>
           <div class="line">
-            <div class="text">this exact word or phrase:</div>
-            <input class="empty" type="text" name="as_epq">
+            <label for="as_epq" class="text">this exact word or phrase:</label>
+            <input class="input" type="text" name="as_epq">
             <div class="greytext">Put exact words in quotes: "rat terrier"</div>
           </div>
           <div class="line">
-            <div class="text">any of these words:</div>
-            <input class="empty" type="text" name="as_oq">
+            <label for="as_oq" class="text">any of these words:</label>
+            <input class="input" type="text" name="as_oq">
             <div class="greytext">Type OR between all the words you want: miniature OR standard    </div>
           </div>
           <div class="line">
-            <div class="text">none of these words:</div>
-            <input class="empty" type="text" name="as_eq">
+            <label for="as_eq" class="text">none of these words:</label>
+            <input class="input" type="text" name="as_eq">
             <div class="greytext">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
           </div>
           <div id="button">

@@ -27,10 +27,9 @@ body {
 }
 
 .main {
-  margin: 20px;
-  padding: 20px;
-  height: 75vh;
+  height: 65vh;
   display: flex;
+  width: auto;
 }
 
 form {
@@ -40,7 +39,7 @@ form {
 }
 
 #input{
-  margin: 8px;
+  margin: 18px;
   outline: none;
   border-radius: 20px;
   border: 0.5px solid #ccc;
@@ -68,7 +67,7 @@ button:hover {
 }
 
 .header {
-  margin: 25px 30px;
+  margin: 25px 30px;  
 }
 
 h4 {
@@ -77,48 +76,76 @@ h4 {
   font-size: 20px;
 }
 
+.advanced {
+  max-width: 1140px;
+  min-width: 200px;
+  margin: 40px 2% 0 45px;
+}
+
 #form {
-  padding: 25px 50px;
-  border: 0.3px solid rgb(170, 168, 168);
+  border-top: 0.3px solid rgb(170, 168, 168);
+  border-bottom: 0.3px solid rgb(170, 168, 168);
   display: block;
 }
 
 .line {
-  width: 100%;
   margin: 20px 0;
 }
 
 .text {
-  width: 15%;
+  width: 16%;
+  min-width: 167px;
   font-size: 13px;
   display: inline-block;
 }
 
 .empty {
-  width: 45%;
+  width: 50%;
+  min-width: 167px;
   display: inline-block;
 }
 
+.input {
+  width: 50%;
+  min-width: 167px;
+  display: inline-block;
+  border: 0.5px solid rgba(33,33,33,.2);
+}
+
+.input:hover {
+  box-shadow: 0 0 8px rgba(33,33,33,.2);
+}
+
 .greytext {
-  width: 35%;
+  width: 32%;
+  min-width: 160px;
   padding: 0 10px;
   display: inline-block;
   color: #555;
   font-size: 11px;
+  vertical-align: middle;
+}
+
+@media (max-width: 1000px) {
+  .greytext {
+    display: none;
+  }
 }
 
 .bgcolor {
-  background-color: rgb(233, 233, 233);
+  background-color: rgb(236, 233, 233);
 }
 
 #button {
-  width: 61%;
+  width: 67%;
+  min-width: 400px;
   display: flex;
   justify-content: flex-end;
 }
 
 #btn {
   width: 25%;
+  min-width: 160px;
   background-color: #4d90fe;
   border: 1px solid #3079ed;
   color: #fff;
