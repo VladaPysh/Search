@@ -41,7 +41,7 @@ body {
   width: auto;
 }
 
-form {
+.main form {
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,7 +85,7 @@ button:hover {
   margin: 25px 30px;
 }
 
-h4 {
+.header h4 {
   margin: 15px;
   color: #d93025;
   font-size: 20px;
